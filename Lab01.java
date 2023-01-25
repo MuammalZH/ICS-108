@@ -57,10 +57,13 @@ public class Lab01 {
         }
         else if (letterGrade.equals("F")) {
             points=0.0;
+
             gpa += (creditHourse*points);
             sumOfcredits+= creditHourse;
         }
+        
     }
+    
     totalGpa= gpa/sumOfcredits;
     System.out.println("The total GPA is: " + totalGpa);
 
