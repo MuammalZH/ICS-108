@@ -16,22 +16,22 @@ public class Lab04 {
                 weights.add(w);
             }
         }
+        int count = 1;
+        while(!weights.isEmpty()){
+            ArrayList<Integer> Container = new ArrayList<>(); 
+            int total = 0;
         
-        int total = 0;
-        ArrayList<Integer> cont = new ArrayList<>(); 
-        for(int i=0; i<numberOfobjects; i++){
-            if (total <= 10){
-                if(weights.get(i) <= (10-total)){
-                    cont.add(weights.get(i));
-                    total += weights.get(i); 
-                    weights.remove(i); 
+            for (int i = 0; i < weights.size(); i++) {
+                if(total + weights.get(i) <= 10){
+                int cont = weights.remove(i);
+                i--;
+                Container.add(cont);
+                total += cont; 
                 }
-                ArrayList<Integer> Container = new ArrayList<>(); 
-                Container.add(total); 
-                total = 0;
             }
+            System.out.println("Container "+ count + " used " + Container.size() + " objects with weights " + Container.toString());
+            count ++; 
         }
-        int size = Container.size(); 
-        System.out.println("Number of containers used is " + size);
     }
 }
+            
