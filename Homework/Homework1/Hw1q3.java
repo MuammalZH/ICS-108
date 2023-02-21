@@ -1,5 +1,5 @@
 package Hwq1;
-package Homeworks.Hwq1;
+package Homework.Homework1;
 import java.util.Scanner;
 
 import javax.sound.midi.Soundbank;

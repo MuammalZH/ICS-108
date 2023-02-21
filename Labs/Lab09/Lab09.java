@@ -1,9 +1,3 @@
-package Lab09;
-import java.util.jar.Attributes.Name;
-
-import org.xml.sax.SAXException;
-
-import Labs.Lab10.Person;
 
 public class Lab09 {
     public static void main(String[] args) {

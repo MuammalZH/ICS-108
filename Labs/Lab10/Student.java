@@ -1,5 +1,4 @@
 package Labs.Lab10;
-import Labs.Lab09.Lab09.Person;
 
 public class Student extends Person{
     private int studentID;

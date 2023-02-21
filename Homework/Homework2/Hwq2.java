@@ -1,4 +1,4 @@
-package Homeworks.Hwq2;
+package Homework.Homework2;
 import java.util.ArrayList;
 import java.util.Arrays;
 

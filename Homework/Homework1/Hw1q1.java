@@ -1,5 +1,5 @@
-package Homeworks;
-package Homeworks.Hwq1 class Hw1q1 {
+package Homework.Homework1;
+class Hw1q1 {
     public static void main(String[] args) {
         System.out.println("The numbers divisible by 3 or 4, but not both, are: ");
 
