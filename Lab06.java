@@ -29,10 +29,10 @@ public class Lab06 {
         this.maximumWeight=n;
     }
 
-    public boolean addItem(int itemWeigt){
-        if (itemWeigt <= maximumWeight){
-            maximumWeight= maximumWeight-itemWeigt;
-            weights.add(itemWeigt);
+    public boolean addItem(Integer itemWeight){
+        if (itemWeight <= maximumWeight){
+            maximumWeight= maximumWeight-itemWeight;
+            weights.add(itemWeight);
             return true;
         }
 
