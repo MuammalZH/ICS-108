@@ -21,28 +21,4 @@ public class Lab06 {
     }
 }
 
- class Container{
-
-    ArrayList<Integer> weights = new ArrayList<>();
-    int maximumWeight;
-    
-    Container(int n){
-        this.maximumWeight=n;
-    }
-
-    public boolean addItem(Integer itemWeight){
-        if (itemWeight <= maximumWeight){
-            maximumWeight= maximumWeight-itemWeight;
-            weights.add(itemWeight);
-            return true;
-        }
-
-        return false;
-    }
-
-    public ArrayList<Integer> get(){
-        return weights;
-    }
-}
-
 
