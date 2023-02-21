@@ -1,5 +1,9 @@
+package Labs.Lab07;
+
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import Labs.Lab06.Container;
 
 public class Lab07 {
     public static void main(String[] args) {

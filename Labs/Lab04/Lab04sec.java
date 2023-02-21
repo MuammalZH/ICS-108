@@ -1,3 +1,4 @@
+package Labs.Lab04;
 public class Lab04sec {
     public static void main(String[] args) {
         int[][] q= { {0,0,0,1},{0,0,1,0}};

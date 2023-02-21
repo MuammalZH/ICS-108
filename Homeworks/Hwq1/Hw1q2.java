@@ -1,3 +1,5 @@
+package Hwq1;
+package Homeworks.Hwq1;
 import java.util.Scanner;
 
 public class Hw1q2 {

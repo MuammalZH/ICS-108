@@ -1,3 +1,4 @@
+package Labs.Lab10;
 public class Person {
     private String name, phone;
 
