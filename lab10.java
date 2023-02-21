@@ -1,7 +1,5 @@
-package Labs.Lab10;
 import java.util.ArrayList;
 
-import Person;
 public class lab10 {
     public static void main(String[] args) {
         ArrayList<Person> personList = createPersonList();

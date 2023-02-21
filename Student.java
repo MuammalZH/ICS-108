@@ -1,10 +1,10 @@
 public class Student extends Person{
-    private int sid;
+    private int studentID;
     private double gpa;
 
-    public Student(String name, String phone, int sid, double gpa) {
+    public Student(String name, String phone, int studentID, double gpa) {
         super(name, phone);
-        this.sid = sid;
+        this.studentID = studentID;
         this.gpa = gpa;
     }
 
@@ -14,6 +14,6 @@ public class Student extends Person{
 
     @Override
     public String toString() {
-        return super.toString() + "\t" + sid + "\t" + gpa;
+        return super.toString() + "\t" + studentID + "\t" + gpa;
     }
 }

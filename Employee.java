@@ -1,13 +1,10 @@
-import Person;
-
-package Labs.Lab10;
 public class Employee extends Person{
-    private int sid;
+    private int employeeID;
     private int salary;
 
-    public Employee(String name, String phone, int sid, int salary) {
+    public Employee(String name, String phone, int employeeID, int salary) {
         super(name, phone);
-        this.sid = sid;
+        this.employeeID = employeeID;
         this.salary = salary;
     }
 
@@ -17,6 +14,6 @@ public class Employee extends Person{
 
     @Override
     public String toString() {
-        return super.toString() + " " + sid + " " + salary;
+        return super.toString() + " " + employeeID + " " + salary;
     }
 }
