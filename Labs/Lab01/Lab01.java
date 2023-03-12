@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Lab01 {
     public static void main(String[] args) {
-        int numberOfcourses , creditHourse, i, sumOfcredits=0;
+        int numberOfcourses , creditHourse, i, sumOfcredits = 0;
         String letterGrade;
         double gpa=0.0, points, totalGpa;
         Scanner input = new Scanner(System.in);
