@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Lab01 {
     public static void main(String[] args) {
-        int numberOfcourses , creditHourse, i, sumOfcredits = 0;
+        int numberOfcourses , creditHourse, i, sumOfCredits=0 ;
         String letterGrade;
         double gpa=0.0, points, totalGpa;
         Scanner input = new Scanner(System.in);
@@ -19,53 +19,53 @@ public class Lab01 {
         if(letterGrade.equals("A+")) {
         points= 4.0;
         gpa += (creditHourse*points);
-        sumOfcredits+= creditHourse;
+        sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("A")) {
         points= 3.75;
         gpa += (creditHourse*points);
-        sumOfcredits+= creditHourse;
+        sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("B+")) {
         points=3.5;
         gpa += (creditHourse*points);
-        sumOfcredits+= creditHourse;
+        sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("B")) {
             points=3.0;
             gpa += (creditHourse*points);
-            sumOfcredits+= creditHourse;
+            sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("C+")) {
             points=2.5;
             gpa += (creditHourse*points);
-            sumOfcredits+= creditHourse;
+            sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("C")) {
             points=2.0;
             gpa += (creditHourse*points);
-            sumOfcredits+= creditHourse;
+            sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("D+")) {
             points=1.5;
             gpa += (creditHourse*points);
-            sumOfcredits+= creditHourse;
+            sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("D")) {
             points=1.0;
             gpa += (creditHourse*points);
-            sumOfcredits+= creditHourse;
+            sumOfCredits+= creditHourse;
         }
         else if (letterGrade.equals("F")) {
             points=0.0;
 
             gpa += (creditHourse*points);
-            sumOfcredits+= creditHourse;
+            sumOfCredits+= creditHourse;
         }
         
     }
     
-    totalGpa= gpa/sumOfcredits;
+    totalGpa= gpa/sumOfCredits;
     System.out.println("The total GPA is: " + totalGpa);
 
 
