@@ -19,10 +19,11 @@ public class Lab20 {
 
         int num = largestNum(subsList);
         return (myArrayList.get(0) > num ) ? myArrayList.get(0) : num;
+        
     }
 }
 }
-
+    
     
 
 
