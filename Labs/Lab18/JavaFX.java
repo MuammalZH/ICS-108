@@ -1,3 +1,4 @@
+package Labs.Lab18;
 // Lab 18 is solved in Intellij IDEA
 
 // import javafx.application.Application;
