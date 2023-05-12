@@ -1,7 +1,8 @@
+package BonusQ;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BounsQus {
+public class BonusQus1 {
         public static void reverseArrayList(ArrayList<Integer> list, ArrayList<Integer> newList) {
             if (list.size() == 0) {
                 return;

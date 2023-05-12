@@ -1,4 +1,4 @@
-package Labs.Lab23;
+package Labs.Lab24;
 
 import java.io.File;
 import java.io.FileNotFoundException;
